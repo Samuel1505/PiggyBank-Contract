@@ -17,7 +17,6 @@ contract PiggyBankFactory {
         return address(newPiggy);
     }
 
-
     function getUserPiggyBanks(address user) external view returns (address[] memory) {
         return userPiggyBanks[user];
     }
